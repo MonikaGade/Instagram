@@ -6,7 +6,8 @@
 <p>This project is a clone of the Instagram UI. I made it to study and improve my skills with HTML and CSS, and learn new concepts, like layouts, responsiveness, positioning and some JS concepts. Any feedback, opinions or suggestions is very welcome!</p>
 
 <p>This instagram clone is created for mobile responsive ness. </p>
-<h2 color="#f03c15">Screenshots<h2>
+
+$${\color{red}Welcome \space \color{lightblue}To \space \color{orange}Stackoverflow}$$
 <div class="image">
 <img src="https://github.com/MonikaGade/Instagram/assets/144129444/214e80dc-9aad-4b6a-a732-4aef43098548" width="250" >
 <img src="https://github.com/MonikaGade/Instagram/assets/144129444/8a819967-657a-4cbd-a503-43004b34b326" width="250" >
