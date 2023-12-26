@@ -7,9 +7,10 @@
 
 <p>This instagram clone is created for mobile responsive ness </p>
 <div class="image">
-<img src="https://github.com/MonikaGade/Instagram/assets/144129444/214e80dc-9aad-4b6a-a732-4aef43098548" width="300" height="300">
-<img src="https://github.com/MonikaGade/Instagram/assets/144129444/5a8a4f80-ef1a-49aa-8265-3e504cb6205d" width="300" height="300">
-<img src="https://github.com/MonikaGade/Instagram/assets/144129444/0bf1bcf2-dc07-4b9f-94b3-a5d3bfd07cb3" width="300" height="300">
+<img src="https://github.com/MonikaGade/Instagram/assets/144129444/214e80dc-9aad-4b6a-a732-4aef43098548" width="300" >
+<img src="https://github.com/MonikaGade/Instagram/assets/144129444/8a819967-657a-4cbd-a503-43004b34b326" width="300" >
+<img src="https://github.com/MonikaGade/Instagram/assets/144129444/e77082ac-643e-42b8-b56c-2aa9e6f84b9a" width="300" >
 </div>
 </body>
 </html>
+
