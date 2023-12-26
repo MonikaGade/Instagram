@@ -1,0 +1,436 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color:rgba(255, 255, 255, 0.354);
+    --font-size:1.5rem
+}
+body {
+    background-color: black;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:1rem
+}
+.nav-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+.nav-top h2{
+    font-weight:500
+}
+.nav-icon {
+    display: flex;
+    font-size: 1rem;
+    padding-top: .25rem;
+}
+.nav-icon .heart {
+    margin-right: 1rem
+}
+
+.nav-icon .message {
+    margin-right: 1rem
+}
+
+.follow-list-story {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 23px;
+    padding:0px 20px 0px 40px;
+    overflow:scroll hidden;
+}
+/*Hide scrollbar for Chrome, Safari and Opera */
+.follow-list-story::-webkit-scrollbar{
+   display: none;
+} 
+/* Hide scrollbar for IE, Edge and Firefox */
+.follow-list-story {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+   }
+
+h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.your-story {
+    min-width:65px;
+    min-height:65px;
+    background-color: green;
+    border-radius: 50%;
+    background-image: url("images/image1.jpg");
+    background-size: cover;
+    position: relative;
+    margin-right:20px;
+    margin-bottom:30px;
+    margin-left:-20px
+}
+.your-story p {
+    position: absolute;
+    top: 105%;
+    left: 20%;
+    font-size: .6rem;
+    font-weight: 500;
+}
+
+.add-story {
+    background-color: blue;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    height: 20px;
+    transform: translate(160%, -140%);
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid black;
+
+}
+.others-story {
+    min-width:65px;
+    min-height:65px;
+    background-color: green;
+    border-radius: 50%;
+    background-size: cover;
+    position: relative;
+    margin-right:20px;
+    margin-bottom:30px;
+    border-right: 2px solid #C13584;
+    border-top: 2px solid #FD1D1D;
+    border-bottom: 2px solid rgb(245, 96, 64);
+    border-left: 2px solid #FCAF45;
+    outline: 2px solid black;
+    outline-offset: -5px;
+
+}
+.others-story p {
+    position: absolute;
+    top: 105%;
+    left: 5%;
+    font-size: .6rem;
+    font-weight: 500;
+}
+.one{
+    background-image: url("images/image11.jpg");   
+}
+.two {
+    background-image: url("images/image2.jpg");
+}
+
+.three {
+    background-image: url("images/image3.jpg");
+}
+
+.four {
+    background-image: url("images/image4.jpg");
+}
+
+.five {
+    background-image: url("images/image5.jpg");
+}
+
+.fifth {
+    background-image: url("images/image6.jpg");
+}
+
+.six {
+    background-image: url("images/image7.jpg");
+}
+
+.seven {
+    background-image: url("images/image8.jpg");
+}
+
+.eight {
+    background-image: url("images/image9.jpg");
+}
+
+.nine {
+    background-image: url("images/image10.jpg");
+}
+
+main{
+    width:100%;
+    height:100vh;
+}
+.main-post{
+    display: flex;
+    justify-content: space-between;
+    margin-top:1rem
+}
+.icon-of-person{
+    display: flex;
+}
+.icon-of-person p{
+    margin-top:20px;
+    font-size:12px
+}
+.dp-icon-of-person{
+    min-width:45px;
+    min-height:45px;
+    background-color: green;
+    border-radius: 50%;
+    background-image: url("images/image2.jpg");
+    background-size: cover;
+    position: relative;
+    margin-right:10px
+}
+.ellipsis{
+    margin:10px
+}
+.post-per{
+    width:100%;
+    height:400px;
+    margin-top:12px;
+    background-image: url("images/post-image1.jpg");
+    background-size: cover;
+}
+.post-li-com-sh{
+    display: flex;
+    font-size:1.5rem;
+    justify-content: space-between;
+    margin:10px
+}
+.p-l-c-s p{
+    display: inline-block;
+    padding-right:10px
+}
+.post-li-com-sh .dot{
+  background-color: blue;
+  width:9px;
+  height:9px;
+  border-radius: 50%;
+  margin-left:-100px;
+  margin-top:10px
+}
+.comment{
+    display: relative;
+}
+.comment input{
+    width:100%;
+    display: inline;
+}
+.pic{
+    max-width:30px;
+    height:30px;
+    background-color: #FCAF45;
+    border-radius: 50%;
+    background-image: url("images/image2.jpg");
+    background-size: cover;
+
+}
+.comment .comm{
+    width:80%;
+    background-color: black;
+    color:var(--color);
+    border:none
+}
+.time{
+    color:var(--color);
+    font-size:12px;
+    margin-top:10px
+}
+.post-two{
+    background-image: url("images/post-image2.jpg");
+}
+.post-am{
+    background-image: url("images/post-image3.jpg");
+}
+.post-am-2{
+    background-image:url("images/post-image4.jpg");
+}
+.post-am-3{
+    background-image: url("images/post-image5.jpg");
+}
+.post-am-4{
+    background-image: url("images/post-image6.jpg");
+}
+.sr-pic{
+    background-image: url("images/image8.jpg");
+}
+.am-pic{
+    background-image:url("images/image5.jpg");
+}
+footer{
+    position: fixed;
+    bottom:0;
+    width:100%;
+    height:60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size:1.5rem;
+    background-color: black;
+}
+.pro-pic{
+    width:30px;
+    height:30px;
+
+}
+.bor:hover{
+    border:2px solid white
+}
+
+
+/* profile style */
+.profile{
+    display: flex;
+    justify-content: space-between;
+}
+.pro-name i{
+    align-self: flex-start;
+}
+.border-b{
+    border:2px solid white;
+    border-radius: 5px;
+    width:20px;
+    text-align: center;
+    height:25px;
+    margin-left:150px;
+}
+.bar1{
+    font-size:var(--font-size);
+}
+.foll{
+    display: flex;
+    position: relative
+}
+.per-profile-pic{
+    min-width:65px;
+    min-height:65px;
+    background-color: green;
+    border-radius: 50%;
+    background-image: url("images/image2.jpg");
+    background-size: cover;
+}
+.per-profile-pic p{
+    position: absolute;
+    top:65px;
+    left:5px
+}
+
+.follow-content{
+    display: flex;
+    justify-content: space-around;
+    width:70%;
+    position:absolute;
+    right:20px;
+    top:20px;
+}
+.follow-content p:last-child{
+    font-weight: 300;
+}
+.profile-ed-sh{
+    margin-top:30px;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+}
+.profile-ed-sh a{
+    background-color: rgba(255, 255, 255, 0.136);
+    color:white;
+    display: inline-block;
+    text-decoration: none;
+    width:150px;
+    text-align: center;
+    padding:5px 10px 3px 10px;
+    font-weight: 300;
+    border-radius:10px
+}
+.highlights{
+    width: 100%;
+    display: flex;
+    margin-top:12px;
+    width:100%;
+}
+.new{
+    min-width:65px;
+    min-height:65px;
+    border-radius: 50%;
+    border:1px solid white;
+    position: relative;
+
+}
+.new #add{
+    font-size:2.5rem;
+    font-weight:300;
+    text-align: center;
+    padding-top:4px
+}
+#new1{
+    position: absolute;
+    left:20px;
+    top:65px
+}
+section{
+    margin-top:3rem;
+}
+.girds{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    text-align: center;
+}
+
+/* post size */
+.each-post{
+   width:100%;
+   height:100px;
+   border:1px solid white;
+   background-size:cover;
+}
+.posts-posted{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width:100%;
+    gap:0;
+    overflow: hidden;
+}
+.posts-posted .post-one{
+    background-image: url("images/post-image1.jpg");
+}
+.posts-posted .post-two{
+    background-image: url("images/post-image2.jpg");
+}
+.posts-posted .post-th{
+    background-image: url("images/post-image4.jpg");
+}
+.posts-posted .post-fo{
+    background-image: url("images/post-image6.jpg");
+}
+.posters{
+    border-bottom:2px solid white;
+    width:50%
+}
+
+footer a{
+    color:white
+}
+.search-bar{
+    display: flex;
+    padding:1rem;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.28);
+}
+.search-bar p{
+    margin-left:10px;
+    font-weight: 300;
+}
+.main-search{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top:1rem;
+    background-color: rgba(255, 255, 255, 0.28);
+}
+.search-one{
+    width:100%;
+    height:50%
+}
+.main-search div{
+    border:3px solid black;
+    width:100%;
+}
