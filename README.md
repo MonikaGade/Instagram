@@ -4,6 +4,4 @@
 
 <p>This instagram clone is created for mobile responsive ness </p>
 
-<img src="instagram.png">
-<img src="search.png">
 <img src="profile.png">
