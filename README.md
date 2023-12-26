@@ -5,5 +5,5 @@
 <p>This instagram clone is created for mobile responsive ness </p>
 
 <figure>
-<img src="profile.png" alt="Profile page" width="200" height="200">
+<img src="./profile.png" alt="Profile page" width="200" height="200">
 </figure>
