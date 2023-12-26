@@ -1,4 +1,5 @@
 <html>
+  <head>
   <style>
     .image{
       width:100%;
@@ -11,6 +12,7 @@
       height:20%;
       }
   </style>
+      </head>
 <body>
 
 <h1>Instagram clone</h1>
