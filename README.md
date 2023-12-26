@@ -7,7 +7,7 @@
 
 <p>This instagram clone is created for mobile responsive ness. </p>
 
-$${/color Screenshots{blue}}$$
+<h2>Screenshots</h2>
 <div class="image">
 <img src="https://github.com/MonikaGade/Instagram/assets/144129444/214e80dc-9aad-4b6a-a732-4aef43098548" width="250" >
 <img src="https://github.com/MonikaGade/Instagram/assets/144129444/8a819967-657a-4cbd-a503-43004b34b326" width="250" >
